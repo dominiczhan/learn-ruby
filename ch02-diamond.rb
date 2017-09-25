@@ -6,9 +6,9 @@ space_count = (rows + 1)/2
 rows.times do |row|
     if row < (rows + 1)/2
 
-    space_count -= 1
-    star_count = row * 2 + 1
-    print space * space_count
+        space_count -= 1
+        star_count = row * 2 + 1
+        print space * space_count
     
     else
         space_count += 1
